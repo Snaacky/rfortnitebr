@@ -1,0 +1,766 @@
+---
+
+# -------------------------------------------------------------- #
+# WHEN CREATING TEMP RULES, MAKE SURE YOU LEAVE THE DATE 
+# WHEN UPDATING AUTOMOD, MAKE SURE YOU LEAVE A REVISION REASON
+# MAKE SURE YOU INCLUDE THE EPIC EXCLUSION FOR REMOVALS
+# IF YOU COPY AND PASTE A RULE, MAKE SURE YOU UPDATE THE COMMENT
+# YOU ARE RESPONSIBLE FOR TEMP RULES YOU CREATE, INCLUDING REMOVAL
+# -------------------------------------------------------------- #
+
+# -------------------------------------------------------------- #
+#                   TEMP RULES BEGIN HERE
+# -------------------------------------------------------------- #  
+
+---
+
+# 12/11/2018 - Wind
+# New Infinity Blade AM
+
+    type: submission
+    author:
+        ~flair_css_class: "epic"
+    body+title (includes): ["new weapon", "infinity blade", "infinity sword", "new melee weapon", "new sword",  "sword", "mythic", "long knife", "people opener", "knife", "blade"]
+    ~body+title (includes): ["passwords"]
+    action: remove
+    comment: |
+        Your post has been removed due to being a frequently posted topic about the infinity blade, please direct your discussion points to the [Epic Thread located here](https://www.reddit.com/r/FortNiteBR/comments/a67482/infinity_blade_vaulted/) If your post was not about the new melee please modmail us with a link to your post to have it reviewed.
+    action_reason: "new weapon spam, matched keyword: {{match}}"
+
+---
+
+# 12/09/2018
+# mrdeadmoth temp rule
+
+    type: any
+    body+title (includes): ["mrdeadmoth", "mr dead moth", "wife", "beating", "beater", "wife beater", "women beater", "misterdeadmoth", "mister dead moth"]
+    action: remove
+    action_reason: "Removed for disturbing video or reference to streamer mrdeadmoth"
+
+---
+
+# 12/08/2018
+# New skin temp rule
+
+    type: submission
+    author:
+        ~flair_css_class: "epic"
+    body+title (includes): ["nog ops"]
+    action: remove
+    action_reason: "new skin, matched keyword: {{match}}"
+
+
+---
+
+# 12/06/2018
+# season 7 9/11 temp rule
+
+    type: submission
+    author:
+        ~flair_css_class: "epic"
+    body+title (includes): ["9/11", "tower", "towers", "twin"]
+    action: filter
+    action_reason: "Possible 9/11 creative post, apply bans as necessary, matched keyword: {{match}}"
+
+---
+
+# 12/03/2018
+# walmart temp comment rule    
+
+    type: comment
+    author:
+        ~flair_css_class: "epic"
+    body (includes): ["dm me", "pm me"]
+    action: filter
+    action_reason: "Possible begging for codes or giveaway, matched keyword: {{match}}"
+    
+---
+
+# 12/02/2018
+# Pewdiepie temp rule
+
+    type: any
+    body+title (includes-word): ["pewdiepie", "sub to pewdiepie", "pewds"]
+    action: remove
+    action_reason: "sub to pewdiepie spam, matched keyword: {{match}}"
+
+---
+
+# 12/02/2018
+# walmart codes temp rule
+
+    type: submission
+    author:
+        ~flair_css_class: "epic"
+    body (includes-word): ["walmart", "code", "codes", "walmart codes"]
+    action: remove
+    comment: |
+        We do not tolerate asking/begging for codes. If you have a code to giveaway feel free to post it in this [**Megathread here**](https://www.reddit.com/r/FortNiteBR/comments/a2n6r2/walmart_spray_code_megathread/) We do not expect you to ask for anything in return. If your post was not related to any walmart promotion, feel free to modmail us with a link to your thread to have it reviewed.
+    action_reason: "Possible begging for codes or giveaway, matched keyword: {{match}}"
+
+---
+
+# 11/09/2018
+# Temp rule for copypasta
+    type: any
+    body (includes): ["⣀"]
+    action: remove
+    action_reason: "copypasta spam"
+    
+---
+
+# -------------------------------------------------------------- #
+#                    PERMANENT RULES BEGIN HERE
+# Please do not make any edits to any parts of AutoMod below this
+#      line without first consulting an admin/SCK. Thanks.
+# -------------------------------------------------------------- #
+
+---
+
+# Blacklisted content
+# THE FIRST LIST IS NOT A BLACKLIST, IT IS A EXCLUSION LIST
+# PLEASE DO NOT PUT BLACKLISTED KEYWORDS IN THE EXCLUSIONS LIST
+# SOCIAL MEDIA (TWITCH, YT, ETC) GOES ON LAYER7, NOT HERE
+    type: any
+    author:
+        ~flair_css_class: "epic"
+        ~name: "stormshieldonebot"
+    ~url+domain+body+title(includes): ["discord.gg/fortnite", "discord.gg/FortniteBR"] 
+    url+domain+body+title(includes): ["cockfit", "r/CompetitiveFortNiteBR", "cpbldi", "cpbldi.com", "discord.gg", "fn-market.net", "fn-wiki.net", "fnbr.wiki", "fortclothes", "fortclothes.com", "fortnite-gifts.com", "fortnite-market.net", "fortnite-special", "fortnite-special.com", "fortnite-vbucks", "fortnite-vbucks.net", "fortnite-wiki.net", "r/FortniteAfterDark", "r/FortniteBR2Deep", "r/FortniteBRuniversity", "fortnitecashbattles.com", "r/fortnitegonewild", "r/fortniteleaks", "fortnitereplay", "FortniteRetail", "r/FortniteTMZ", "fortnitevb", "fortnitevb.com", "freethevbucks", "freethevbucks.com", "generator-online", "generator-online.us", "gofundme", "gofundme.com", "r/learningllama", "num29.com", "playfortnite", "playfortnite.online", "r/fortnitecirclejerk", "r/fortnitedowntime", "r/Fortnitegonewild", "r/fortniteleaks", "r/FortniteYoutubeClips", "r/rule34", "r/temporaryfortniteBR", "r/FortniteBRuniversity", "r/fortnitegonewild", "r/learningllama", "redbubble.com", "royalebattlebucks", "royalebattlebucks.com", "teespring.com", "umggaming.com", "vbucks.gg", "vbucksmethod", "vbucksmethod.com", "free-gg", "r/fortnitebrxbox", "ligma", "sugma", "sugandese", "sugundese", "etma", "sawcon",  "fortnite-gifts", "bofa", "r/pubg", "r/pubattlegrounds", "fortnitemerch.website", "fortnitemerch", "shapeways.com", "shapeways", "porn", "pornhub", "pornhub.com", "r/FortniteSavetheWorld", "travelbuddyoutlet.com", "fortnite_mobile", "r/fortniteass", "strawpoll.me", "fortnitevictorycamp.com", "r/worldofnick", "twitchbet.tv", "r/FortniteBattleRoyale", "r/FortniteBRWild", "sweatcoin", "sweatcoin.com", "r/PraiseTheCube", "prizecodes.me", "prize codes. me", "free-gg.com", "goo.gl", "bit.ly", "kutt.it", "r/FortniteCompetitive2", "u.to", "esportsgags.com", "r/Fortnite_Memes", "gameaholicmedia.com", "gameaholicmedia", "game aholic media", "shiphile-gaming.com", "fortnitefuck.com", "megaofferzone.com", "gamewith.net", "change.org", "aiming.pro", "r/WholesomeFortniteBR", "kudoflow.com", "adf.ly", "r/unofficialfortniteBR", "atshop.io", "g2g.com", "make-fortnite-wallpapers.com", "turboagram.com", "grab-coins.ga", "r/FortniteBRPolls", "r/CreativeFortniteBR", "r/fortnitecompetitive"]
+    action: remove
+    action_reason: "Removed for blacklisted content, matched keyword: {{match}}"
+
+---
+
+# Removes links submitted as text post titles
+    type: submission
+    author:
+       ~flair_css_class: "epic"
+    title (regex): '[-a-zA-Z0-9]{2,256}\.[a-z]{2,4}\b([-a-zA-Z0-9]*)'
+    action: remove
+    Comment: |
+        Your post was removed because the title includes a link, please remove the link from your title. Please [contact us via modmail if this was done improperly](https://www.reddit.com/message/compose?to=%2Fr%2FFortNiteBR)
+    action_reason: "Removed for being a link submitted as a text post title, matched keyword: {{match}}"
+
+---
+
+# Removes Epic plz posts
+   type: submission
+   ~title (includes): ["competition"]
+   title (includes-word): ["epic plz", "epic please", "epic pls", "let us", "dear epic", "time to", "its time", "its time to", "epic lets"]
+   author:
+       ~flair_css_class: "epic"
+   action: remove
+   action_reason: "Removed for being a 'epic plz' or petition style post, matched keyword: {{match}}"
+
+---
+
+# Removes posts related to teaming in-game
+   type: submission
+   title (includes): ["teaming", "teamers", "teamer", "teamed"]
+   author:
+       ~flair_css_class: "epic"
+   action: remove
+   comment: |
+        [Please report players in-game and then here](https://epicgames.helpshift.com/a/fortnite/?s=fortnite-general-support&f=how-do-i-report-bad-player-behavior&p=all) if you are this distressed by this particular situation.
+
+        We do not allow posts regarding teamers and teaming due to it's spammy nature.
+   action_reason: "Removed for being related to teaming, matched keyword: {{match}}"
+
+---
+
+# Removes posts related to LFG
+    type: submission
+    ~title (includes): ["wolfman"]
+    title (includes): ["LFG", "LFM", "add me", "looking for team", "looking for group", "looking for more", "looking for players", "looking for friend", "looking for some players", "looking for friends", "finding friend", "find friend", "lf player", "lf friend", "lf players", "lf friends", "looking for duo", "looking for squad", "team recruiting", "squad with me", "duo with me", "squads with me", "duos with me", "Looking for people", "wanna play", "need a duo", "need a squad", "lf duo", "lf squad", "who wants to play", "who wants to duo", "who wants to squad", "want to squad up", "wants to squad up", "wanna duo", "wanna squad", "want to squad", "want to duo", "looking for a duo", "looking for a squad", "looking for squad", "help completing mission", "help with challenge", "looking for", "need a 4th"]
+    author:
+       ~flair_css_class: "epic"
+    action: remove
+    comment: |
+        We do not allow LFG-style posts on our subreddit. We do, however, offer alternatives for those who want to connect with other redditors to play with!
+        
+        You can join us for our [weekly Team Up Tuesday thread here](https://www.reddit.com/r/FortNiteBR/search?q=team+up+tuesday+author%3Aautomoderator&restrict_sr=on&sort=relevance&t=all) where we allow similar *comments* to your post or [join us in our Discord](https://discord.gg/FortniteBR)
+    action_reason: "Removed for being LFG, matched keyword: {{match}}"
+
+---
+
+# Filters bad words
+    type: any
+    author:
+        ~flair_css_class: "epic"
+    ~body+title (includes): ["oxymoron", "mythic", "circumstance", "ethical", "grape", "skyscraper", "gothic", "hot", "accumulate", "succumb", "scum", "encumbered", "cumbersome"]
+    body+title (includes-word): ["nigger", "faggot", "fag", "kill your self", "kill yourself", "kill urself", "kill ur self", "kil yor self", "cunt", "autistic", "moron", "retard", "fuck you", "commit suicide", "kike", "slut", "thot", "t h o t", "rape", "milf", "thicc", "thiccc", "thicccc", "boner", "cum", "t h i c c", "t h i c c c", "t h i c c c c", "t h i c c c c c", "thot", "bitch", "asshole", "retarded", "thic", "T  H I C C", "nibba", "kys", "no nut", "queer"]
+    action: filter
+    action_reason: "Filtered for harassment: {{match}}"
+
+---
+
+# Filters posts about first wins
+    title (includes): ["first win", "1st win", "1st solo win", "first solo win", "my first win", "my 1st win", "my first solo win", "my 1st solo win", "solo win", "first ever win"]
+    author:
+       ~flair_css_class: "epic"
+    action: remove
+    action_reason: "Filtered for being about a first win game, matched keyword: {{match}}"
+
+---
+
+# Removes posts about hacked accounts
+   type: submission
+   title (includes): ["Hacked", "Account Comprimised", "Stolen Vbux", "Stolen Account", "Account Compromised", "account stolen", "lost my account"]
+   author:
+       ~flair_css_class: "epic"
+   action: remove
+   comment: |
+        It looks like you are posting about your account being compromised. Epic has created a list of next steps and protections for your account, please take a look at those [here.](https://www.reddit.com/r/FortNiteBR/comments/7vqqqx/protecting_your_epic_account/) If you have any questions or concerns please utilize the comments section of that post.
+   action_reason: "Removed for being potentially being about a user's hacked account, matched keyword: {{match}}"
+   
+---
+
+# Removes posts about STW (wrong sub)
+   type: submission
+   ~title (includes): ["frostwing"]
+   title (includes): ["stw", "save the world", "pve"]
+   author:
+       ~flair_css_class: "epic"
+   action: remove
+   action_reason: "STW content posted on the wrong sub, matched keyword: {{match}}"
+   comment: |
+        Your post has been removed due to being about the Save the World game mode. Similar to how we have a seperate subreddit for Fortnite Creative, this game mode has it's own seperate subreddit located at [r/Fortnite](r/Fortnite). All discussion will be pushed there as it is for it's own unique game. 
+
+---
+
+# Creative Mode 
+    type: submission
+    author:
+        ~flair_css_class: "epic"
+    body+title (includes): ["creative mode", "sandbox mode", "risky reels", "happened to risky", "risky gone", "risky replaced", "risky changed", "#fortniteblockparty", "the block", "block party"]
+    action: remove
+    comment: |
+        Your post has been removed due to being about the new creative game mode. Similar to how we have a seperate subreddit for Save the World, this game mode has it's own seperate subreddit located at [Fortnite Creative](https://www.reddit.com/r/FortniteCreative). All discussion will be pushed there as it is for it's own unique game. Alternatively, your post is about The Block which is an FPT and we request all comments be directed into the [official Epic announcement located here](https://www.reddit.com/r/FortNiteBR/comments/a3xb65/introducing_the_block/.
+    action_reason: "Creative mode, matched keyword: {{match}}"
+    
+--- 
+
+# Removes vote manipulation posts
+  type: submission
+  title+body (includes): ["up vote", "upvote", "please support", "for visibility", "front page"]
+  author:
+      ~flair_css_class: "epic"
+  action: remove
+  action_reason: "Removed post for vote manipulation, matched keyword: {{match}}"
+    
+---
+
+# Removes call to action posts
+  type: submission
+  title+body (includes): ["get this guy banned", "ban this guy", "hacker", "ban him", "please ban", "please report", "petition"]
+  author:
+      ~flair_css_class: "epic"
+  action: remove
+  action_reason: "Removed post for call to action"
+
+---
+
+# Removes nostalgia meme shit posts
+   type: submission
+   title+body: ["Only OGs remember", "only 90's kids", "only 90s kids", "90s kids", "90's kids", "80s kids", "80's kids", "Pepperidge Farm",]
+   author:
+       ~flair_css_class: "epic"
+   action: remove
+   report_reason: "nostalgia meme shitpost, matched keyword: {{match}}"
+
+---
+
+# Reports posts that are potentially low quality
+  type: link submission
+  ~title+body (includes): ["grant"]
+  title+body (includes): ["Unpopular opinion", "unpopular opinion", "tfw", "mfw", "gay", "yeet", "pubg is better", "should i buy", "should i get", "is it worth", "coming back", "will come back", "old menu music", "menu music", "old music", "useless information", "fix your game", "wtf epic", "rant", "when your", "when you're", "when youre", "thanos"]
+  author:
+       ~flair_css_class: "epic"
+  action: remove
+  action_reason: "Not encouraging discussion, matched keyword: {{match}}"
+  
+---
+
+# Most likely phone picture
+  type: link submission
+  title+body (includes): ["sorry about quality", "sorry phone", "sorry mobile", "sorry low quality", "sorry bad quality", "sorry for bad image quality", "sorry for bad", "sorry for angle", "sorry for low quality"]
+  author:
+      ~flair_css_class: "epic"
+  action: remove
+  report_reason: "Removed phone picture, matched keyword: {{match}}"
+
+---
+
+# Reports posts that are account support
+  type: submission
+  title+body (includes): ["account", "banned", "epic won't respond", "waiting for reply", "waiting on a reply", "i was banned"]
+  author:
+       ~flair_css_class: "epic"
+  action: remove
+  report_reason: "Reported post for potential account support, matched keyword: {{match}}"
+
+---
+
+# Reports posts with frequently posted topics
+  type: submission
+  title+body: ["buff materials", "repost", "lighting bug", "lighting glitch", "dark background", "wrong head", "glitched head", "glitched skin", "skin glitched"]
+  author:
+        ~flair_css_class: "epic"
+  action: remove
+  report_reason: "Reported potential frequently posted topics, matched keyword: {{match}}"
+  
+---
+  
+# Filters potential scams and Epic TOS violations
+# First list is an exclusive list with tilde, don't add to it unless you mean to. -Wind
+  type: any
+  ~title+body: ["trade off", "tradeoff"]
+  title+body: ["buy account", "free vbucks", "free vbux", "free v-bux", "free-vbucks", "trade", "buy skin", "sell account", "sale", "paypal", "for sale", "trading", "buy me", "gift", "donate"]
+  author:
+       ~flair_css_class: "epic"
+  action: remove
+  report_reason: "Filtered possible scam, matched keyword: {{match}}"
+  
+---
+  
+# Possible meta post
+  type: any
+  title+body: ["mods remove", "mods don't", "post removed", "remove this post", "taken down", "mods", "mods suck", "don't remove", "dont remove"]
+  author:
+       ~flair_css_class: "epic"
+  action: report
+  report_reason: "Reported for being a potential meta/mod-antagonizing post, matched keyword: {{match}}"
+  
+---
+
+# Removes popular letter emoji
+  title+body (includes): ["\U0001F171", "\U0001F17F"]
+  author:
+       ~flair_css_class: "epic"
+  action: remove
+  action_reason: "Removed for annoying letter emoji usage, matched keyword: {{match}}"
+
+---
+
+# Reports posts with low quality humor titles
+  type: submission
+  title+body: ["daily reminder", "disgusting", "dae", "shrek", "meme", "reposted", "reposting", "repost", "tfw", "mfw", "lol", "xd", "shitpost", "nazi", "dank", "this is so sad"]
+  author:
+       ~flair_css_class: "epic"
+  action: remove
+  report_reason: "Removed for low quality humor, matched keyword: {{match}}"
+  
+---
+
+# Removes text posts that are under 75 characters
+  type: text submission
+  body_shorter_than: 75
+  author:
+      ~flair_css_class: "epic"
+  action: remove
+  comment: |
+       Sorry, your [{{kind}}]({{permalink}}) in /r/{{subreddit}} was removed because the post was not long enough to encourage a meaningful discussion. Please note, this action was performed automatically, and adding characters in an attempt to circumvent this filter will result in an automatic ban from /r/{{subreddit}}.
+       
+       - Please do not send us modmail asking to manually approve a post. We will not make any exceptions.
+  action_reason: "Removed because the text submission did not contain at least 75 characters"
+
+---  
+
+# Removes submissions that are in ALL CAPS
+    type: submission
+    title (case-sensitive, regex, full-text): "([A-Z0-9]|\\W)+"
+    action: remove
+    author:
+        ~flair_css_class: "epic"
+    comment: |
+        Your [{{kind}}]({{permalink}}) in /r/{{subreddit}} was automatically removed because you posted in ALL CAPS. 
+    action_reason: "Removed because the post was written in all caps."
+
+---
+
+# Sends modmail when subreddit or mod team gets referenced
+    title: ["this subreddit", "mods", "moderators"]
+    modmail: |
+        A submission that appears to be about the subreddit has been made by /u/{{author}}.
+
+        **Title:** {{title}}
+    action_reason: "Sent modmail because post seemed to be a meta post about the sub or mods, matched keyword: {{match}}"
+
+---
+
+# TODO: Don't we have something similar to this that's for links in text submissions *titles* instead of body? I feel like this could probably be merged into one rule or at least optimized.
+
+# Removes text submissions that only contain a link
+    type: text submission
+    body (regex, full-text): '(\[.*?\]\()?https?://\S+\)?'
+    author:
+        ~flair_css_class: "epic"
+    action: remove
+    action_reason: "Removed because the text submission body only contained a link, matched keyword: {{match}}"
+
+---
+
+# Removes potential personal information - phone number
+    title+body (regex): ["\\(?(\\d{3})\\)?([ .-])(\\d{3})([ .-])(\\d{4})","(\\d{5})([ .-])(\\d{6})","\\(?(\\d{4})\\)?([ .-])(\\d{3})([ .-])(\\d{3})","\\(?(\\d{2})\\)?([ .-])(\\d{4})([ .-])(\\d{4})","\\(?(\\d{2})\\)?([ .-])(\\d{3})([ .-])(\\d{4})","\\+([\\d ]{10,15})"]
+    ~body+url (regex): "(\\[[^\\]]+?\\]\\()?(https?://|www\\.)\\S+\\)?"
+    ~body+title+url (regex): ["(800|855|866|877|888|007|911)\\W*\\d{3}\\W*\\d{4}", "\\d{3}\\W*555\\W*\\d{4}", "999-999-9999", "000-000-0000", "123-456-7890", "111-111-1111", "012-345-6789", "888-888-8888", "281\\W*330\\W*8004", "777-777-7777", "678-999-8212", "999([ .-])119([ .-])7253","0118 999 811","0118 999 881", "867( -)?5309", "505\\W*503\\W*4455", "1024 2048"]
+    author:
+        ~flair_css_class: "epic"
+    action: remove
+    modmail_subject: Doxxing Alert! 
+    modmail: |
+
+        {{permalink}}
+
+        The above {{kind}} by /u/{{author}} was removed because it contained a possible phone number. Please investigate immediately.
+
+        If the user is doxxing, [ban them](/r/{{subreddit}}/about/banned) and [report them to the reddit admins](http://www.reddit.com/message/compose?to=%2Fr%2Freddit.com&subject=Doxxing%20Report:%20%2Fu%2F{{author}}&message=%2Fu%2F{{author}}%20posted%20a%20phone%20number:%20{{permalink}}) immediately.
+    action_reason: "Sent modmail due to potential phone number posted, matched keyword: {{match}}"
+
+---
+
+# Removes potential personal information - card number
+    title+body (regex): "\\b(?:4[0-9]{12}(?:[0-9]{3})?|5[12345][0-9]{14}|3[47][0-9]{13}|3(?:0[012345]|[68][0-9])[0-9]{11}|6(?:011|5[0-9]{2})[0-9]{12}|(?:2131|1800|35[0-9]{3})[0-9]{11})\\b"
+    author:
+        ~flair_css_class: "epic"
+    action: remove
+    modmail_subject: Doxxing Alert!
+    modmail: |
+
+        {{permalink}}
+
+        The above {{kind}} by /u/{{author}} was removed because it contained a possible card number. Please investigate immediately.
+
+        If the user is doxxing, [ban them](/r/{{subreddit}}/about/banned) and [report them to the reddit admins](http://www.reddit.com/message/compose?to=%2Fr%2Freddit.com&amp;subject=Doxxing%20Report:%20%2Fu%2F{{author}}&message=%2Fu%2F{{author}}%20posted%20a%20credit%20card%20number:%20{{permalink}}) immediately.
+    action_reason: "Sent modmail due to potential card number posted, matched keyword: {{match}}"
+
+---
+
+# Remove posts with too many reports
+    reports: 10
+    action: remove
+    modmail: The above {{kind}} by /u/{{author}} was removed because it received 10 reports. Please investigate and ensure that this action was correct.
+    action_reason: "Removed automatically and sent a modmail warning because the post received over 10 reports."
+
+---
+
+# -------------------------------------------------------------- #
+#              NEW ACCOUNT AND KARMA RESTRICTIONS
+# -------------------------------------------------------------- #
+
+## Account Age Requirements
+    type: submission
+    author:
+        account_age: "< 7 days"
+    action: remove
+    action_reason: "User has under 7 day account age"
+
+---
+
+# Comment Kamra requirements
+    type: link submission
+    Domain: ["youtube.com", "twitch.tv", "mixer.com", "youtu.be"]
+    author:
+        comment_karma: '< 50'
+    action: remove
+    comment: |
+        Hello, we only allow people with an account age of 7 days and 50 comment karma to post promotional links on our community. This is to deter promotional spammers and limit the amount of bots coming to our community to post non Fortnite related content.
+    action_reason: "Minimum karma not met for promotional links"
+
+---
+
+# -------------------------------------------------------------- #
+#                       AUTOMATIC FLAIRING
+# -------------------------------------------------------------- #
+
+---
+
+# Sends flair reminder on submission creation
+type: submission
+~flair_text: ["Bug", "Discussion", "Suggestion", "Media", "Streamer", "Creative", "Screenshot", "Meme", "Epic", "Epic Comment", "Daily Items", "Daily"]
+message: |
+    Hi there! 
+
+    Thank you for submitting to /r/FortniteBR. This is a friendly reminder to please make sure your post is flaired. 
+        
+        - You can flair when posting on mobile BEFORE you post or by using the "..." button
+        
+        - You can flair on PC AFTER you post, directly under the last sentence or image are options to flair the post
+        
+        - Failure to flair you post will result in its removal.  We will NOT manually update the flair, do not send ModMail
+        
+        - If you failed to flair your video, you will have to wait again to repost it, our bot will not allow this until the cooldown is over.  Text posts or images can be reposted right away.
+
+
+    For more information as to why you have to flair, please read [our flair update](https://www.reddit.com/r/FortNiteBR/comments/8bznpy/state_of_the_subreddit_new_moderators_survey/).
+
+    Thanks!
+
+---
+
+# Flair bug posts
+    priority: 1
+    type: submission
+    author: 
+        ~flair_css_class: "epic"
+    title: ["[Bug]","[BUG]","[bug]"]
+    set_flair: ["Bug", "a"]
+
+---
+
+# Flair discussion posts
+    priority: 1
+    type: submission
+    author: 
+        ~flair_css_class: "epic"
+    title: ["[Discussion]","[DISCUSSION]","[discussion]"]
+    set_flair: ["Discussion", "b"]
+
+---
+
+# Flair suggestion posts
+    priority: 1
+    type: submission
+    author: 
+        ~flair_css_class: "epic"
+    title: ["[Suggestion]","[SUGGESTION]","[suggestion]"]
+    set_flair: ["Suggestion", "c"]
+
+---
+
+# Flair media posts
+    priority: 1
+    type: submission
+    author: 
+        ~flair_css_class: "epic"
+    title: ["[Media]","[MEDIA]","[media]"]
+    set_flair: ["Media", "d"]
+
+---
+
+# Flair streamer posts
+    priority: 1
+    type: submission
+    author: 
+        ~flair_css_class: "epic"
+    title: ["[Streamer]","[STREAMER]","[streamer]"]
+    set_flair: ["Streamer", "d2"]
+
+---
+
+# Flair screenshot posts
+    priority: 1
+    type: submission
+    author: 
+        ~flair_css_class: "epic"
+    title: ["[Screenshot]","[SCREENSHOT]","[screenshot]"]
+    set_flair: ["Screenshot", "d3"]
+
+---
+
+# Flair creative posts
+    priority: 1
+    type: submission
+    author: 
+        ~flair_css_class: "epic"
+    title: ["[Creative]","[CREATIVE]","[creative]"]
+    set_flair: ["Creative", "e"]
+
+---
+
+# Flair meme posts
+    priority: 1
+    type: submission
+    author: 
+        ~flair_css_class: "epic"
+    title: ["[Meme]","[MEME]","[meme]"]
+    set_flair: ["Meme", "f"]
+
+---
+
+# Flair question posts
+    priority: 1
+    type: submission
+    author: 
+        ~flair_css_class: "epic"
+    title: ["[Question]","[QUESTION]","[question]"]
+    set_flair: ["Question", "question"]
+    
+---
+
+# Approves new Epic Games employee submission, flairs post, sends modmail notification
+    priority: 1
+    type: submission
+    author: 
+        flair_css_class: "epic"
+    modmail: EPIC made a new post
+    action: approve
+    overwrite_flair: true
+    set_flair: ["Epic", "official"]
+
+---
+
+# Flair Epic Games employee comment on question posts
+    priority: 1
+    type: comment
+    author: 
+        flair_css_class: "epic"
+    parent_submission:
+        ~flair_css_class: "official"
+        overwrite_flair: true
+        set_flair: ["EPIC COMMENT", "question"]
+
+---
+
+# Flair Epic Games employee comment on creative posts
+    priority: 1
+    type: comment
+    author: 
+        flair_css_class: "epic"
+    parent_submission:
+        ~flair_css_class: "official"
+        overwrite_flair: true
+        set_flair: ["EPIC COMMENT", "b"]
+
+---
+
+# Flair Epic Games employee comment on bug posts
+    priority: 1
+    type: comment
+    author: 
+        flair_css_class: "epic"
+    parent_submission:
+        ~flair_css_class: "official"
+        flair_css_class: "a"
+        set_flair: ["EPIC COMMENT", "ea"]
+        overwrite_flair: true
+
+---
+
+# Flair Epic Games employee comment on discussion posts
+    priority: 1
+    type: comment
+    author: 
+        flair_css_class: "epic"
+    parent_submission:
+        ~flair_css_class: "official"
+        flair_css_class: "b"
+        set_flair: ["EPIC COMMENT", "eb"]
+        overwrite_flair: true
+
+---
+
+# Flair Epic Games employee comment on suggestion posts
+    priority: 1
+    type: comment
+    author: 
+        flair_css_class: "epic"
+    parent_submission:
+        ~flair_css_class: "official"
+        flair_css_class: "c"
+        set_flair: ["EPIC COMMENT", "ec"]
+        overwrite_flair: true
+
+---
+
+# Flair Epic Games employee comment on media posts
+    priority: 1
+    type: comment
+    author: 
+        flair_css_class: "epic"
+    parent_submission:
+        ~flair_css_class: "official"
+        flair_css_class: "d"
+        set_flair: ["EPIC COMMENT", "ed"]
+        overwrite_flair: true
+
+---
+
+# Flair Epic Games employee comment on creative posts
+    priority: 1
+    type: comment
+    author: 
+        flair_css_class: "epic"
+    parent_submission:
+        ~flair_css_class: "official"
+        flair_css_class: "e"
+        set_flair: ["EPIC COMMENT", "ee"]
+        overwrite_flair: true
+
+---
+
+# Flair Epic Games employee comment on streamer posts
+    priority: 1
+    type: comment
+    author: 
+        flair_css_class: "epic"
+    parent_submission:
+        ~flair_css_class: "official"
+        flair_css_class: "d2"
+        set_flair: ["EPIC COMMENT", "ed2"]
+        overwrite_flair: true
+
+---
+
+# Flair Epic Games employee comment on meme posts
+    priority: 1
+    type: comment
+    author: 
+        flair_css_class: "epic"
+    parent_submission:
+        ~flair_css_class: "official"
+        flair_css_class: "f"
+        set_flair: ["EPIC COMMENT", "ef"]
+        overwrite_flair: true
+
+---
+
+# Flair Epic Games employee comment on screenshot posts
+    priority: 1
+    type: comment
+    author: 
+        flair_css_class: "epic"
+    parent_submission:
+        ~flair_css_class: "official"
+        flair_css_class: "d3"
+        set_flair: ["EPIC COMMENT", "ed3"]
+        overwrite_flair: true
+
+---
+
+# Approve and flair stormshieldonebot daily shop post
+    priority: 1
+    type: submission
+    author: stormshieldonebot
+    action: approve
+    set_flair: ["DAILY ITEMS", "daily"]
+    overwrite_flair: true
+
+---
+
+# Approve and flair FortniteBRMods
+    priority: 1
+    type: submission
+    author: FortniteBRMods
+    action: approve
+    set_flair: ["MOD", "modsquad"]
+    overwrite_flair: true
+
+---
+
+# Flair automoderator daily posts
+    type: submission
+    author:
+        name: Automoderator
+    set_flair: ["DAILY", "daily"]
+
+---
+
+# Sets Team Up Tuesday suggested sort to new
+    author: Automoderator
+    title: ["Team Up Tuesday"]
+    set_suggested_sort: new
+
+---
+    
