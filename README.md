@@ -6,6 +6,8 @@ A repository containing work that I freely worked on during my tenure as a head 
 ## Warning:
 Some of the code maybe buggy, the comments may not be excellent, and there is most likely tons of places that improvement could be made but simply ran out of time on. These files are recent as of December 17th, 2018.
 
+I've opted not to include the image assets for the stylesheet because Epic Games has copyright ownership over a lot of the image assets used and I don't want Epic legal coming after me so you'll have to scrape those yourself.
+
 ---
 
 ## Contents:
