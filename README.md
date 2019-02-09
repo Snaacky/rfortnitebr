@@ -13,4 +13,4 @@ Some of the code maybe buggy, the comments may not be excellent, and there is mo
 
 `fortnitebr.yaml` - A file containing the YAML that makes up the AutoModerator for /r/FortniteBR. This is heavily modified on /r/Fortnite, mostly the same on /r/FortniteMobile, and slightly modified on /r/FortniteCreative.
 
-[TiltedTowersBot](https://github.com/Snaacky/TiltedTowersBot) - A repostory containing the bot used on /r/FortniteBR to automatically take down posts that haven't been flaired within 30 minutes of being posted. Written in Python 3.x, co-authored by [SirPacker](https://github.com/SirPacker). This is the code that now runs /u/NoSkinBot although there is no relation other than them using our codebase and renaming it.
+[TiltedTowersBot](https://github.com/Snaacky/TiltedTowersBot) - A repository containing the bot used on /r/FortniteBR to automatically take down posts that haven't been flaired within 30 minutes of being posted. Written in Python 3.x, co-authored by [SirPacker](https://github.com/SirPacker). This is the code that now runs /u/NoSkinBot although there is no relation other than them using our codebase and renaming it.
