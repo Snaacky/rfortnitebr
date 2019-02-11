@@ -16,3 +16,5 @@ I've opted not to include the image assets for the stylesheet because Epic Games
 `fortnitebr.yaml` - Contains the YAML that makes up the AutoModerator config for /r/FortniteBR. This is heavily modified on /r/Fortnite, mostly the same on /r/FortniteMobile, and slightly modified on /r/FortniteCreative.
 
 [TiltedTowersBot](https://github.com/Snaacky/TiltedTowersBot) - A repository containing the bot used on /r/FortniteBR to automatically take down posts that haven't been flaired within 30 minutes of being posted. Written in Python 3.x, co-authored by [SirPacker](https://github.com/SirPacker). This is the code that now runs /u/NoSkinBot although there is no relation other than them using our codebase and renaming it.
+
+[fortnite-subreddit](https://github.com/fortnite-subreddit) - An org with all legacy tools used on /r/FortniteBR before the removal of [MasterGoat](https://github.com/MasterGoat) and MC for inactivity.
