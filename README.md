@@ -6,7 +6,7 @@ A repository containing some of the items that I worked on during my tenure as a
 ## Warning:
 Some of the code may be buggy, the comments may not be excellent, and there is tons of room for improvement. These files are recent as of December 17th, 2018.
 
-I've opted not to include the image assets for the stylesheet because Epic Games has copyright ownership over a lot of the image assets used and I don't want Epic legal coming after me [so you'll have to scrape those from the subreddit yourself.](https://www.reddit.com/r/fortnitebr/about/stylesheet/)
+I've opted not to include the image assets for the stylesheet because Epic Games has copyright ownership over a lot of the image assets used [so you'll have to scrape those from the subreddit yourself.](https://www.reddit.com/r/fortnitebr/about/stylesheet/)
 
 ---
 
