@@ -3,13 +3,6 @@ A repository containing some of the items that I worked on during my tenure as a
 
 ---
 
-## Warning:
-Some of the code may be buggy, the comments may not be excellent, and there is tons of room for improvement. These files are recent as of December 17th, 2018.
-
-I've opted not to include the image assets for the stylesheet because Epic Games has copyright ownership over a lot of the image assets used [so you'll have to scrape those from the subreddit yourself.](https://www.reddit.com/r/fortnitebr/about/stylesheet/)
-
----
-
 ## Contents:
 `fortnitebr.css` - Contains the CSS for /r/FortniteBR. All other subreddits (/r/Fortnite, /r/FortniteCreative, /r/FortniteMobile, etc.) are recolored derivatives of this file with slight differences on a subreddit-to-subreddit basis.
 
@@ -18,3 +11,5 @@ I've opted not to include the image assets for the stylesheet because Epic Games
 [TiltedTowersBot](https://github.com/Snaacky/TiltedTowersBot) - A repository containing the bot used on /r/FortniteBR to automatically take down posts that haven't been flaired within 30 minutes of being posted. Written in Python 3.x, co-authored by [SirPacker](https://github.com/SirPacker). This is the code that now runs /u/NoSkinBot although there is no relation other than them using our codebase and renaming it.
 
 [fortnite-subreddit](https://github.com/fortnite-subreddit) - A organization with all the legacy tools used on /r/FortniteBR before the removal of [MasterGoat](https://github.com/MasterGoat) and [DoctorJew](https://github.com/doctorjew).
+
+If anything is missing, you can find the latest revision of files [here](https://www.reddit.com/r/fortnitebr/about/stylesheet/).
