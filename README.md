@@ -1,7 +1,5 @@
 # /r/FortniteBR
-A repository containing some of the items that I worked on during my tenure as a head mod for /r/FortniteBR and the collective family of developer supported subreddits.
-
----
+Tools that keep /r/FortniteBR afloat, AutoModerator, bots, and CSS.
 
 ## Contents:
 `fortnitebr.css` - The CSS for /r/FortniteBR. All other subreddits (/r/Fortnite, /r/FortniteCreative, /r/FortniteMobile, etc.) are recolored derivatives of this file with slight differences on a subreddit-to-subreddit basis. You can find the latest revision of the CSS [here](https://www.reddit.com/r/fortnitebr/about/stylesheet/).
