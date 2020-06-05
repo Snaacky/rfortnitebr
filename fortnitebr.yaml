@@ -1,20 +1,12 @@
 ---
 
 # -------------------------------------------------------------- #
-# WHEN CREATING TEMP RULES, MAKE SURE YOU LEAVE THE DATE 
-# WHEN UPDATING AUTOMOD, MAKE SURE YOU LEAVE A REVISION REASON
-# MAKE SURE YOU INCLUDE THE EPIC EXCLUSION FOR REMOVALS
-# IF YOU COPY AND PASTE A RULE, MAKE SURE YOU UPDATE THE COMMENT
-# YOU ARE RESPONSIBLE FOR TEMP RULES YOU CREATE, INCLUDING REMOVAL
-# -------------------------------------------------------------- #
-
-# -------------------------------------------------------------- #
 #                   TEMP RULES BEGIN HERE
 # -------------------------------------------------------------- #  
 
 ---
 
-# 12/11/2018 - Wind
+# 12/11/2018
 # New Infinity Blade AM
 
     type: submission
@@ -111,8 +103,6 @@
 
 # -------------------------------------------------------------- #
 #                    PERMANENT RULES BEGIN HERE
-# Please do not make any edits to any parts of AutoMod below this
-#      line without first consulting an admin/SCK. Thanks.
 # -------------------------------------------------------------- #
 
 ---
